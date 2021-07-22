@@ -12,7 +12,7 @@
 > **Train set**
 >> hat : 210
 >> 
->> outer : 
+>> outer : 4984
 >> 
 >> top : 20218
 >> 
@@ -27,3 +27,6 @@
 > 
 > **version 2** : Editing loss function and loss ratio. && Adding code for Confusion Matrix    
 > * I can check about data im-balance problem. Because of lack for class 1 (outer), confusion is caused between class 1 (outer) and class 2 (top)
+> 
+> **version 3** : Adding augmentation dataset about class 1 (outer). Using validation set to training    
+> * ResNET not work well (maybe) because of overfitting. In case of other models, there are no great effect to total accuracy
