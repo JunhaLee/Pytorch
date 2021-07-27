@@ -30,3 +30,5 @@
 > 
 > **version 3** : Adding augmentation dataset about class 1 (outer). Using validation set to training    
 > * ResNET not work well (maybe) because of overfitting. In case of other models, there are no great effect to total accuracy
+> 
+> **version 4** : Adding augmentation dataset for all training dataset   
